@@ -1,0 +1,292 @@
+@media only screen and (max-width: 1024px) {
+
+    /* main content */
+    .netflix-logo {
+        width: 10.25rem;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .main-content p {
+        font-weight: 500;
+    }
+
+    /* container */
+    .container {
+        padding: 2.5rem 0;
+    }
+
+    /* container-1 */
+    .container-1 {
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+
+    .container-1-text-content {
+        padding: 0;
+    }
+
+    .container-1-text-content h2 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .container-1-text-content p {
+        width: 521px;
+        font-size: 21px;
+        margin-top: 14px;
+    }
+
+    .container-1-img-content img {
+        width: 512px;
+        padding: 0;
+    }
+
+    /* container-2 */
+    .container-2 {
+        flex-direction: column-reverse;
+        margin: auto;
+        text-align: center;
+    }
+
+    .container-2-text-content {
+        padding: 0;
+    }
+
+    .container-2-text-content h2 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .container-2-text-content p {
+        width: 475px;
+        font-size: 22px;
+        margin-top: 14px;
+        margin: auto;
+    }
+
+    .container-2-img-content img {
+        width: 540px;
+        padding: 0;
+    }
+
+    .container-2-sub-img-content {
+        width: 288px;
+        bottom: 43px;
+        left: 128px;
+    }
+
+
+    /* container-3 */
+    .container-3 {
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+
+    .container-3-text-content {
+        padding: 0;
+    }
+
+    .container-3-text-content h2 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .container-3-text-content p {
+        width: 475px;
+        font-size: 22px;
+        margin-top: 14px;
+    }
+
+    .container-3-img-content img {
+        width: 540px;
+        padding: 0;
+    }
+
+    .container-3-video-content video {
+        width: 350px;
+        position: absolute;
+        top: 48px;
+        left: 97px;
+        z-index: 1;
+    }
+
+    /* container-4 */
+    .container-4 {
+        flex-direction: column-reverse;
+        margin: auto;
+        text-align: center;
+    }
+
+    .container-4-text-content {
+        padding: 0;
+    }
+
+    .container-4-text-content h2 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .container-4-text-content p {
+        width: 475px;
+        font-size: 22px;
+        margin-top: 14px;
+    }
+
+    .container-4-img-content img {
+        width: 540px;
+        padding: 0;
+    }
+
+    /* FAQ Container */
+    .faq-container-section {
+        margin-top: 0.5rem;
+        padding: 30px 0px;
+    }
+
+    .txt-content h2 {
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+
+    .faq-questions img {
+        width: 26px;
+    }
+
+    .get-membership p {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .btns .email-input {
+        padding: 19px 65px 14px 11px;
+    }
+
+    .btns .get-started-btn {
+        padding: 12px 11px 13px 11px;
+    }
+
+    /* footer content */
+    .footer-content {
+        padding: 40px 0px;
+    }
+
+    .footer-links p {
+        margin-bottom: 0;
+    }
+
+    .footer-links ul li a {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        background-size: max(1760px, 100vw);
+    }
+
+    .netflix-logo {
+        width: 12.25rem;
+    }
+
+    .eng-btn p {
+        display: none;
+    }
+
+    .lang-icon,
+    .caret-down-icon {
+        width: 40px;
+    }
+
+    .sign-in-btn {
+        font-size: 28px;
+    }
+
+    .main-content h1 {
+        font-size: 47px;
+    }
+
+    .main-content p {
+        font-size: 30px;
+    }
+
+    .main-content h3 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 1.2;
+        width: 90%;
+        margin: auto;
+    }
+
+    .main-content-btns {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .email-input {
+        padding: 31px 40px 35px 26px;
+        font-size: 32px;
+    }
+
+    .get-started-btn {
+        margin-top: 12px;
+        padding: 18px 42px 18px 18px;
+        font-size: 34px;
+    }
+
+    .main-content img {
+        width: 35px;
+        right: 8px;
+        bottom: 20px;
+    }
+
+    /* FAQ Section */
+    .txt-content h2 {
+        width: 450px;
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .get-membership p {
+        width: 537px;
+        margin: auto;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .btns .email-input {
+        padding: 26px 11px 26px 21px;
+        font-size: 25px;
+    }
+
+    .btns .get-started-btn {
+        padding: 19px 36px 26px 11px;
+    }
+
+    .btns .get-started-btn img {
+        width: 32px;
+        position: absolute;
+        bottom: 29px;
+        right: 7px;
+    }
+
+    .footer-eng-btn {
+        font-size: 25px;
+    }
+
+    .footer-eng-btn .lang-icon {
+        width: 32px;
+    }
+
+    .footer-eng-btn .caret-down-icon {
+        width: 32px;
+    }
+}

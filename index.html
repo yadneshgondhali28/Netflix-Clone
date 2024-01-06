@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="Assets/images/netflix.png" type="image/x-icon">
   </head>
   <body>
     <div class="main">
       <!-- navbar -->
       <div class="navbar">
         <div class="netflix-logo"><img src="Assets/images/logo.svg" alt="Netflix Logo"></div>
-        <div>
-          <button class="eng-btn"><img class="lang-icon" src="Assets/images/lang.svg" alt="language-icon-image">English<img class="caret-down-icon" src="Assets/images/down-icon.svg" alt="caret-down-image"></button>
+        <div class="nav-btns">
+          <button class="eng-btn"><img class="lang-icon" src="Assets/images/lang.svg" alt="language-icon-image"><p>English</p><img class="caret-down-icon" src="Assets/images/down-icon.svg" alt="caret-down-image"></button>
           <button class="sign-in-btn">Sign In</button>
         </div>
       </div>
@@ -22,9 +24,11 @@
         <h1>The biggest Indian hits. The best Indian stories. All streaming here.</h1>
         <p>Watch anywhere. Cancel anytime.</p>
         <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
-        <input class="email-input" type="email" name="email" id="#email" placeholder="Email address">
-        <button class="get-started-btn">Get Started</button>
-        <img src="Assets/images/chevrone-right.svg" alt="chevrone-right">
+        <div class="main-content-btns">
+          <input class="email-input" type="email" name="email" id="#email" placeholder="Email address">
+          <button class="get-started-btn">Get Started<img src="Assets/images/chevrone-right.svg" alt="chevrone-right"></button>
+        </div>
+        
       </div>
       <div class="box"></div>
     </div>
@@ -42,7 +46,7 @@
         </div>
         <div class="container-1-img-content"><img src="Assets/images/tv.png" alt="tv-image">
           <div class="conatainer-1-video-content">
-            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" muted autoplay loop></video>
+            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" muted loop autoplay></video>
           </div>
         </div>
       </div>
@@ -93,7 +97,7 @@
         <div class="container-4-img-content"><img src="Assets/images/kids-img.png" alt="kids cartoon image"></div>
         <div class="container-4-text-content">
           <h2>Create profiles for kids</h2>
-          <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.
+          <p>Send children on adventures with their favourite characters in a space made just for them-free with your membership.
           </p>
         </div>
       </div>
@@ -134,7 +138,7 @@
           </p>
           <div class="btns">
             <input class="email-input" type="email" name="email" id="#email" placeholder="Email address">
-            <button class="get-started-btn">Get Started &gt;</button>
+            <button class="get-started-btn">Get Started<img src="Assets/images/chevrone-right.svg" alt="chevrone-right"></button>
             <!-- <img src="Assets/images/chevrone-right.svg" alt="chevrone-right"> -->
           </div>
         </div>
