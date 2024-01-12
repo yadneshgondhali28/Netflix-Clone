@@ -384,6 +384,8 @@ body {
 }
 
 .footer-eng-btn {
+    display: flex;
+    align-items: center;
     padding: 6px 12px;
     background: transparent;
     border: 1.5px solid rgba(159, 159, 159, 0.792);

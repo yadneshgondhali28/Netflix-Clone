@@ -1,3 +1,4 @@
+/* max-width: 1024px */
 @media only screen and (max-width: 1024px) {
 
     /* main content */
@@ -185,9 +186,10 @@
     }
 }
 
+/* max-width: 768px */
 @media only screen and (max-width: 768px) {
     .main {
-        background-size: max(1760px, 100vw);
+        background-size: max(2880px, 100vw);
     }
 
     .netflix-logo {
@@ -279,14 +281,241 @@
     }
 
     .footer-eng-btn {
-        font-size: 25px;
+        font-size: 18px;
+        padding: 6px 6px;
     }
 
     .footer-eng-btn .lang-icon {
-        width: 32px;
+        width: 25px;
     }
 
     .footer-eng-btn .caret-down-icon {
-        width: 32px;
+        width: 25px;
+    }
+}
+
+/* max-width: 425px */
+@media only screen and (max-width: 440px) {
+    .navbar {
+        padding: 26px 0 0;
+        justify-content: space-around;
+    }
+
+    .netflix-logo img {
+        width: 8em;
+    }
+
+    .eng-btn {
+        align-items: center;
+        padding: 4px 6px;
+    }
+
+    .lang-icon,
+    .caret-down-icon {
+        width: 22px;
+    }
+
+    .sign-in-btn {
+        font-size: 14px;
+    }
+
+    .main-content {
+        margin: 6rem 0;
+    }
+
+    .main-content h1 {
+        font-size: 30px;
+    }
+
+    .main-content p {
+        font-size: 20px;
+    }
+
+    .main-content h3 {
+        font-size: 15px;
+    }
+
+    .email-input {
+        width: 100%;
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .get-started-btn {
+        padding: 16px 28px 16px 16px;
+        font-size: 20px;
+    }
+
+    .main-content img {
+        width: 19px;
+        right: 8px;
+        bottom: 18px;
+    }
+
+    .container {
+        padding: 35px 0;
+    }
+
+    /* container 1 */
+    .container-1-text-content h2 {
+        font-size: 25px;
+    }
+
+    .container-1-text-content p {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .container-1-img-content img {
+        width: 340px;
+    }
+
+    .conatainer-1-video-content video {
+        width: 290px;
+    }
+
+    /* container 2 */
+    .container-2-text-content h2 {
+        font-size: 25px;
+    }
+
+    .container-2-text-content p {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .container-2-img-content img {
+        width: 340px;
+    }
+
+    .container-2-sub-img-content {
+        width: 230px;
+        bottom: 6px;
+        left: 57px;
+    }
+
+    .container-2-sub-img-content img:nth-child(1) {
+        width: 67px;
+        height: 70px;
+    }
+
+    .container-2-sub-txt-content p:nth-child(1) {
+        font-size: 13px;
+    }
+
+    .container-2-sub-txt-content p:nth-child(2) {
+        font-size: 13px;
+    }
+
+    .container-2-sub-img-content img:nth-child(3) {
+        width: 53px;
+        height: 53px;
+        padding: 0 7px 0 0;
+    }
+
+    /* container 3 */
+    .container-3-text-content h2 {
+        font-size: 25px;
+    }
+
+    .container-3-text-content p {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .container-3-img-content img {
+        width: 340px;
+    }
+
+    .container-3-video-content video {
+        width: 211px;
+        top: 34px;
+        left: 63px;
+    }
+
+    /* container 4 */
+    .container-4-text-content h2 {
+        font-size: 25px;
+    }
+
+    .container-4-text-content p {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .container-4-img-content img {
+        width: 340px;
+    }
+
+    /* FAQ container */
+    .txt-content h2 {
+        width: 336px;
+        font-size: 25px;
+    }
+
+    .faq-questions {
+        padding: 20px 20px;
+    }
+
+    .faq-questions p {
+        font-size: 17px;
+    }
+
+    .faq-questions img {
+        width: 20px;
+    }
+
+    .get-membership p {
+        width: 250px;
+        font-size: 13px;
+    }
+
+    .btns .email-input {
+        width: 68%;
+        padding: 18px 11px 15px 17px;
+        font-size: 13px;
+    }
+
+    .btns .get-started-btn {
+        font-size: 15px;
+        padding: 14px 20px 12px 11px;
+    }
+
+    .btns .get-started-btn img {
+        width: 17px;
+        bottom: 13px;
+        right: 3px;
+    }
+
+    .contact-number p {
+        font-size: 13px;
+    }
+
+    .footer-links ul li {
+        list-style: none;
+        width: 159px;
+        margin-top: 16px;
+    }
+
+    .footer-links ul li a {
+        font-size: 11px;
+    }
+
+    .footer-eng-btn {
+        font-size: 12px;
+        margin: 0;
+        padding: 6px 6px;
+    }
+
+    .footer-eng-btn .lang-icon {
+        width: 20px;
+    }
+
+    .footer-eng-btn .caret-down-icon {
+        width: 20px;
+    }
+
+    .footer-links p {
+        font-size: 11px;
     }
 }
