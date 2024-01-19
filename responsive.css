@@ -21,13 +21,13 @@
 
     /* container-1 */
     .container-1 {
-        flex-direction: column;
+        flex-direction: row;
         margin: auto;
         text-align: center;
     }
 
     .container-1-text-content {
-        padding: 0;
+        padding: 0 6px 0 0;
     }
 
     .container-1-text-content h2 {
@@ -36,25 +36,29 @@
     }
 
     .container-1-text-content p {
-        width: 521px;
+        width: 410px;
         font-size: 21px;
         margin-top: 14px;
     }
 
     .container-1-img-content img {
-        width: 512px;
-        padding: 0;
+        width: 396px;
+        padding: 0 0 0 6px;
+    }
+
+    .conatainer-1-video-content video {
+        width: 331px;
     }
 
     /* container-2 */
     .container-2 {
-        flex-direction: column-reverse;
+        flex-direction: row;
         margin: auto;
         text-align: center;
     }
 
     .container-2-text-content {
-        padding: 0;
+        padding: 0 0 0 6px;
     }
 
     .container-2-text-content h2 {
@@ -63,33 +67,33 @@
     }
 
     .container-2-text-content p {
-        width: 475px;
+        width: 410px;
         font-size: 22px;
         margin-top: 14px;
         margin: auto;
     }
 
     .container-2-img-content img {
-        width: 540px;
-        padding: 0;
+        width: 396px;
+        padding: 0 6px 0 0;
     }
 
     .container-2-sub-img-content {
-        width: 288px;
-        bottom: 43px;
-        left: 128px;
+        width: 277px;
+        bottom: 10px;
+        left: 59px;
     }
 
 
     /* container-3 */
     .container-3 {
-        flex-direction: column;
+        flex-direction: row;
         margin: auto;
         text-align: center;
     }
 
     .container-3-text-content {
-        padding: 0;
+        padding: 0 6px 0 0;
     }
 
     .container-3-text-content h2 {
@@ -98,33 +102,33 @@
     }
 
     .container-3-text-content p {
-        width: 475px;
+        width: 410px;
         font-size: 22px;
         margin-top: 14px;
     }
 
     .container-3-img-content img {
-        width: 540px;
-        padding: 0;
+        width: 396px;
+        padding: 0 0 0 6px;
     }
 
     .container-3-video-content video {
-        width: 350px;
+        width: 245px;
         position: absolute;
-        top: 48px;
-        left: 97px;
+        top: 27px;
+        left: 76px;
         z-index: 1;
     }
 
     /* container-4 */
     .container-4 {
-        flex-direction: column-reverse;
+        flex-direction: row;
         margin: auto;
         text-align: center;
     }
 
     .container-4-text-content {
-        padding: 0;
+        padding: 0 0 0 6px;
     }
 
     .container-4-text-content h2 {
@@ -133,14 +137,14 @@
     }
 
     .container-4-text-content p {
-        width: 475px;
+        width: 410px;
         font-size: 22px;
         margin-top: 14px;
     }
 
     .container-4-img-content img {
-        width: 540px;
-        padding: 0;
+        width: 396px;
+        padding: 0 6px 0 0;
     }
 
     /* FAQ Container */
@@ -165,11 +169,17 @@
     }
 
     .btns .email-input {
+        width: 314px;
         padding: 19px 65px 14px 11px;
     }
 
     .btns .get-started-btn {
-        padding: 12px 11px 13px 11px;
+        padding: 12px 33px 13px 26px;
+    }
+
+    .btns .get-started-btn img {
+        bottom: 16px;
+        right: 10px;
     }
 
     /* footer content */
@@ -189,7 +199,7 @@
 /* max-width: 768px */
 @media only screen and (max-width: 768px) {
     .main {
-        background-size: max(2880px, 100vw);
+        background-size: max(1840px, 100vw);
     }
 
     .netflix-logo {
@@ -250,6 +260,61 @@
         bottom: 20px;
     }
 
+    /* containers */
+
+    /* container-1 */
+    .container-1 {
+        flex-direction: column;
+    }
+
+    .container-1-text-content {
+        padding: 0;
+    }
+
+    .container-1-img-content img {
+        padding: 0;
+    }
+
+    .container-2 {
+        flex-direction: column-reverse;
+    }
+
+    .container-2-text-content {
+        padding: 0;
+    }
+
+    .container-2-img-content img {
+        padding: 0;
+    }
+
+    .container-3 {
+        flex-direction: column;
+    }
+
+    .container-3-text-content {
+        padding: 0;
+    }
+
+    .container-3-img-content img {
+        padding: 0;
+    }
+
+    .container-4 {
+        flex-direction: column-reverse;
+    }
+
+    .container-4-text-content {
+        padding: 0;
+    }
+
+    .container-4-text-content p {
+        width: 503px;
+    }
+
+    .container-4-img-content img {
+        padding: 0;
+    }
+
     /* FAQ Section */
     .txt-content h2 {
         width: 450px;
@@ -297,16 +362,17 @@
 /* max-width: 425px */
 @media only screen and (max-width: 440px) {
     .navbar {
-        padding: 26px 0 0;
+        padding: 20px 0 0;
         justify-content: space-around;
     }
 
     .netflix-logo img {
-        width: 8em;
+        width: 6em;
     }
 
     .eng-btn {
         align-items: center;
+        margin-right: 7px;
         padding: 4px 6px;
     }
 
@@ -320,7 +386,7 @@
     }
 
     .main-content {
-        margin: 6rem 0;
+        margin: 69px 0 34px 0;
     }
 
     .main-content h1 {
@@ -329,26 +395,36 @@
 
     .main-content p {
         font-size: 20px;
+        font-weight: 500;
+        margin-top: 12px;
+        margin-bottom: 21px;
     }
 
     .main-content h3 {
-        font-size: 15px;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .main-content-btns {
+        width: 100%;
+        margin: 0;
     }
 
     .email-input {
-        width: 100%;
-        font-size: 14px;
+        width: 336px;
+        font-size: 18px;
         padding: 20px;
     }
 
     .get-started-btn {
-        padding: 16px 28px 16px 16px;
+        margin-top: 18px;
+        padding: 16px 35px 16px 21px;
         font-size: 20px;
     }
 
     .main-content img {
-        width: 19px;
-        right: 8px;
+        width: 21px;
+        right: 14px;
         bottom: 18px;
     }
 
@@ -466,25 +542,24 @@
     }
 
     .get-membership p {
-        width: 250px;
-        font-size: 13px;
+        width: 300px;
+        font-size: 18px;
     }
 
     .btns .email-input {
-        width: 68%;
         padding: 18px 11px 15px 17px;
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .btns .get-started-btn {
-        font-size: 15px;
-        padding: 14px 20px 12px 11px;
+        font-size: 23px;
+        padding: 17px 40px 17px 23px;
     }
 
     .btns .get-started-btn img {
-        width: 17px;
-        bottom: 13px;
-        right: 3px;
+        width: 26px;
+        bottom: 18px;
+        right: 13px;
     }
 
     .contact-number p {
