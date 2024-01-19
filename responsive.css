@@ -360,7 +360,7 @@
 }
 
 /* max-width: 425px */
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 540px) {
     .navbar {
         padding: 20px 0 0;
         justify-content: space-around;
@@ -553,12 +553,12 @@
 
     .btns .get-started-btn {
         font-size: 23px;
-        padding: 17px 40px 17px 23px;
+        padding: 14px 40px 14px 23px;
     }
 
     .btns .get-started-btn img {
         width: 26px;
-        bottom: 18px;
+        bottom: 16px;
         right: 13px;
     }
 
@@ -568,7 +568,7 @@
 
     .footer-links ul li {
         list-style: none;
-        width: 159px;
+        width: 135px;
         margin-top: 16px;
     }
 
