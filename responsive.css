@@ -330,19 +330,19 @@
     }
 
     .btns .email-input {
-        padding: 26px 11px 26px 21px;
-        font-size: 25px;
+        width: 523px;
+        padding: 19px 65px 14px 11px;
     }
 
     .btns .get-started-btn {
-        padding: 19px 36px 26px 11px;
+        padding: 19px 47px 19px 26px;
     }
 
     .btns .get-started-btn img {
         width: 32px;
         position: absolute;
-        bottom: 29px;
-        right: 7px;
+        bottom: 23px;
+        right: 14px;
     }
 
     .footer-eng-btn {
@@ -360,7 +360,7 @@
 }
 
 /* max-width: 425px */
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 600px) {
     .navbar {
         padding: 20px 0 0;
         justify-content: space-around;
@@ -419,12 +419,12 @@
     .get-started-btn {
         margin-top: 18px;
         padding: 16px 35px 16px 21px;
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .main-content img {
-        width: 21px;
-        right: 14px;
+        width: 24px;
+        right: 11px;
         bottom: 18px;
     }
 
@@ -547,6 +547,7 @@
     }
 
     .btns .email-input {
+        width: 258px;
         padding: 18px 11px 15px 17px;
         font-size: 16px;
     }
